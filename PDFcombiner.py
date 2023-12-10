@@ -2,7 +2,7 @@ import PyPDF2
 import os
 
 pdfFiles = []
-pdfDirectory = input("PDF directory")
+pdfDirectory = input("Input PDF Directory: ")
 directory = pdfDirectory
 os.chdir(directory)
 
